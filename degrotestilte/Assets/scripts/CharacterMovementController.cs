@@ -12,7 +12,7 @@ public class CharacterMovementController : MonoBehaviour
 
     public float jumpHeight = 3f;
 
-    private float _gravity = -10f;
+    private float _gravity = 0f;
 
     private float _yAxisVelocity;
 
@@ -39,4 +39,6 @@ public class CharacterMovementController : MonoBehaviour
 
         characterController.Move(movement);
     }
+   
+ 
 }
