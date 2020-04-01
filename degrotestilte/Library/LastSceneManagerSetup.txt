@@ -1,9 +1,13 @@
 sceneSetups:
 - path: Assets/scenes/hotel.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/scenes/short.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
-- path: Assets/scenes/short.unity
+- path: Assets/scenes/tekst testen.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
