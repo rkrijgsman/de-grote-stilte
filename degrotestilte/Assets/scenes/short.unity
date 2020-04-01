@@ -51,7 +51,7 @@ LightmapSettings:
     m_IndirectOutputScale: 1
     m_AlbedoBoost: 1
     m_EnvironmentLightingMode: 0
-    m_EnableBakedLightmaps: 1
+    m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 1
   m_LightmapEditorSettings:
     serializedVersion: 12
@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -389,10 +390,10 @@ MeshCollider:
   m_GameObject: {fileID: 36197600}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
+  m_Enabled: 0
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &36197603
 MeshRenderer:
@@ -408,6 +409,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -643,19 +645,19 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 62351349}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6720bf75f91678f45bfc2bb1b362fd2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrustx: 0
-  thrusty: 0
-  thrustz: 0
-  rb: {fileID: 0}
-  xAngle: 0
-  yAngle: 0
-  zAngle: 0
-  obj: {fileID: 0}
+  thrustx: -0.06
+  thrusty: -0.02
+  thrustz: -0.07
+  rb: {fileID: 62351351}
+  xAngle: 0.08
+  yAngle: -0.04
+  zAngle: -0.02
+  obj: {fileID: 974159364}
 --- !u!1 &62567110 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8588115379147016874, guid: 3ffb42c9597b9b44da7cdfb5743e88c2,
@@ -1220,6 +1222,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1477,10 +1480,10 @@ MeshCollider:
   m_GameObject: {fileID: 281487744}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
+  m_Enabled: 0
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &281487747
 MeshRenderer:
@@ -1496,6 +1499,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1690,7 +1694,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 325591356}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6720bf75f91678f45bfc2bb1b362fd2f, type: 3}
   m_Name: 
@@ -2128,19 +2132,19 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 523911448}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6720bf75f91678f45bfc2bb1b362fd2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thrustx: 0.02
-  thrusty: 0
-  thrustz: 0
-  rb: {fileID: 0}
-  xAngle: 0
-  yAngle: 0
-  zAngle: 0
-  obj: {fileID: 0}
+  thrusty: -0.01
+  thrustz: -0.03
+  rb: {fileID: 523911450}
+  xAngle: 0.02
+  yAngle: -0.07
+  zAngle: 0.04
+  obj: {fileID: 700827596}
 --- !u!1001 &528657875
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2667,10 +2671,10 @@ MeshCollider:
   m_GameObject: {fileID: 658833183}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
+  m_Enabled: 0
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &658833186
 MeshRenderer:
@@ -2686,6 +2690,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2777,10 +2782,10 @@ MeshCollider:
   m_GameObject: {fileID: 661751955}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
+  m_Enabled: 0
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &661751958
 MeshRenderer:
@@ -2796,6 +2801,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4659,19 +4665,19 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1091014881}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6720bf75f91678f45bfc2bb1b362fd2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrustx: 0
-  thrusty: 0
-  thrustz: 0
-  rb: {fileID: 0}
-  xAngle: 0
-  yAngle: 0
-  zAngle: 0
-  obj: {fileID: 0}
+  thrustx: -0.01
+  thrusty: 0.04
+  thrustz: 0.02
+  rb: {fileID: 1091014883}
+  xAngle: -0.05
+  yAngle: 0.06
+  zAngle: -0.02
+  obj: {fileID: 1581305713}
 --- !u!1001 &1109851290
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4837,6 +4843,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4930,9 +4937,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 0
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1138525970
 MeshRenderer:
@@ -4948,6 +4955,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5003,17 +5011,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1138525967}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6720bf75f91678f45bfc2bb1b362fd2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrustx: 0.2
-  thrusty: -1
-  thrustz: 0.1
+  thrustx: 0.02
+  thrusty: -0.3
+  thrustz: 0.05
   rb: {fileID: 1138525972}
-  xAngle: -0.1
-  yAngle: 0.1
+  xAngle: -0.01
+  yAngle: 0.01
   zAngle: 0.02
   obj: {fileID: 1138525968}
 --- !u!1001 &1150608896
@@ -5137,7 +5145,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -5718,6 +5726,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6038,8 +6047,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1307110606}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 0.7924528, g: 0.6384849, b: 0.6167675, a: 1}
   m_Intensity: 3
   m_Range: 10.930622
@@ -6510,6 +6520,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6641,19 +6652,19 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1447813241}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6720bf75f91678f45bfc2bb1b362fd2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrustx: 0
-  thrusty: 0
-  thrustz: 0
-  rb: {fileID: 0}
-  xAngle: 0
-  yAngle: 0
-  zAngle: 0
-  obj: {fileID: 0}
+  thrustx: -0.05
+  thrusty: 0.04
+  thrustz: -0.02
+  rb: {fileID: 1447813243}
+  xAngle: 0.03
+  yAngle: 0.05
+  zAngle: -0.02
+  obj: {fileID: 654749244}
 --- !u!1001 &1453177625
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7014,19 +7025,19 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479825758}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6720bf75f91678f45bfc2bb1b362fd2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrustx: 0
-  thrusty: 0
-  thrustz: 0
-  rb: {fileID: 0}
-  xAngle: 0
-  yAngle: 0
-  zAngle: 0
-  obj: {fileID: 0}
+  thrustx: 0.02
+  thrusty: -0.07
+  thrustz: -0.04
+  rb: {fileID: 1479825760}
+  xAngle: 0.03
+  yAngle: -0.05
+  zAngle: 0.02
+  obj: {fileID: 2078880215}
 --- !u!1001 &1505515694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7715,8 +7726,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1627833657}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -8220,6 +8232,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8729,6 +8742,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9231,7 +9245,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1980024163}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6720bf75f91678f45bfc2bb1b362fd2f, type: 3}
   m_Name: 
@@ -9286,7 +9300,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2015514706}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6720bf75f91678f45bfc2bb1b362fd2f, type: 3}
   m_Name: 
@@ -9663,7 +9677,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2099649988}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6720bf75f91678f45bfc2bb1b362fd2f, type: 3}
   m_Name: 
@@ -9719,10 +9733,10 @@ MeshCollider:
   m_GameObject: {fileID: 2107050731}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
+  m_Enabled: 0
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &2107050734
 MeshRenderer:
@@ -9738,6 +9752,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9834,7 +9849,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2132006088}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6720bf75f91678f45bfc2bb1b362fd2f, type: 3}
   m_Name: 
@@ -9889,16 +9904,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2133872351}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6720bf75f91678f45bfc2bb1b362fd2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrustx: 0
-  thrusty: 0
-  thrustz: 0
-  rb: {fileID: 0}
-  xAngle: 0
-  yAngle: 0
-  zAngle: 0
-  obj: {fileID: 0}
+  thrustx: 0.08
+  thrusty: -0.02
+  thrustz: 0.06
+  rb: {fileID: 2133872353}
+  xAngle: 0.07
+  yAngle: 0.02
+  zAngle: 0.012
+  obj: {fileID: 1831160789}
