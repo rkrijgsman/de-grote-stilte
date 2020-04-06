@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 100
+  controlID: 20
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 15
+  controlID: 21
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 16
+  controlID: 22
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -389,10 +389,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 103}
-      m_SelectedIDs: 1efaffff
-      m_LastClickedID: -1506
-      m_ExpandedIDs: 70fbffff4235000052350000dc35000008360000663600006a360000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 2ec1ffff1acfffff1ecfffff82d8ffff8ed8ffff70fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -452,9 +452,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.1156335, y: 3.6955693, z: -0.36754802}
+    m_Target: {x: -0.52316815, y: 1.3210578, z: -1.3245573}
     speed: 2
-    m_Value: {x: 2.1156335, y: 3.6955693, z: -0.36754802}
+    m_Value: {x: -0.52316815, y: 1.3210578, z: -1.3245573}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -500,13 +500,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.15672426, y: -0.60964894, z: 0.12465467, w: -0.7670119}
+    m_Target: {x: -0.3271308, y: -0.097169824, z: 0.03391797, w: -0.9394009}
     speed: 2
-    m_Value: {x: -0.15671796, y: -0.60962445, z: 0.124649666, w: -0.76698107}
+    m_Value: {x: -0.32711753, y: -0.09716588, z: 0.033916596, w: -0.9393628}
   m_Size:
-    m_Target: 1.0090756
+    m_Target: 3.7980907
     speed: 2
-    m_Value: 0.7090756
+    m_Value: 3.7980907
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -570,20 +570,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/audio
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/audio
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\IPD3-3\De Grote Stilte\Unity\de-grote-stilte\degrotestilte
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c23c0000
-    m_LastClickedID: 15554
-    m_ExpandedIDs: 00000000403a0000423a0000443a0000463a0000483a000000ca9a3b
+    scrollPos: {x: 0, y: 45}
+    m_SelectedIDs: 4c3a0000
+    m_LastClickedID: 14924
+    m_ExpandedIDs: 000000004c3a00004e3a0000503a0000523a0000543a00006e440000704400007a4400007e44000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -611,7 +611,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000403a0000423a0000443a0000463a0000483a0000
+    m_ExpandedIDs: 000000004c3a00004e3a0000503a0000523a0000543a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -730,4 +730,4 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 303
+  m_LastVerticalScrollValue: 756
