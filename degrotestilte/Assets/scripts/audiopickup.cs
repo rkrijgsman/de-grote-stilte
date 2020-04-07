@@ -13,6 +13,7 @@ public class audiopickup : MonoBehaviour {
  
     public AudioClip SoundToPlay;
     public float Volume;
+    Collider m_Collider;
 
     // Use this for initialization
     void Start () {
@@ -21,6 +22,7 @@ public class audiopickup : MonoBehaviour {
         rb = GetComponent<Rigidbody>();
         audio = GetComponent<AudioSource>();
         
+        m_Collider = GetComponent<BoxCollider>();
 	}
 	
 	// Update is called once per frame
@@ -30,6 +32,8 @@ public class audiopickup : MonoBehaviour {
         {
             audio.PlayOneShot(SoundToPlay, Volume);
             audioplaying = true;
+            m_Collider.enabled = !m_Collider.enabled;
+            
         }
 	}
 
