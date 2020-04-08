@@ -6125,8 +6125,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bf409e6b3077464ca118db4a7f35554, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hand: {fileID: 1370468222}
-  rigidbody: {fileID: 0}
 --- !u!65 &1181088006
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6152,9 +6150,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdc279308c0fe144e8d316f0a39ca645, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioplaying: 0
+  hand: {fileID: 0}
   rb: {fileID: 1181088003}
-  SoundToPlay: {fileID: 8300000, guid: 13849c0b5f46ad443b4896e7cd89e800, type: 3}
+  audioplaying: 0
+  SoundToPlay: {fileID: 8300000, guid: 4e93920cf625a461188a61372b83a24a, type: 3}
   Volume: 0.6
 --- !u!82 &1181088009
 AudioSource:
@@ -7017,10 +7016,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d645ae43d3f704b419335d8a0e4649c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  canHold: 1
-  ball: {fileID: 0}
-  guide: {fileID: 0}
 --- !u!1 &1390338541 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8588115379147016874, guid: 3ffb42c9597b9b44da7cdfb5743e88c2,
@@ -9715,10 +9710,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d645ae43d3f704b419335d8a0e4649c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  canHold: 1
-  ball: {fileID: 0}
-  guide: {fileID: 0}
 --- !u!1001 &1966575605
 PrefabInstance:
   m_ObjectHideFlags: 0
