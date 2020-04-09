@@ -1007,13 +1007,15 @@ public class BETA_SETTINGS{
                 EditorGUILayout.Space();
                 #endregion 
                 #region Metal Section
-                showMetalFS = EditorGUILayout.BeginFoldoutHeaderGroup(showMetalFS,new GUIContent("Metal & Glass Clips","Audio clips available as footsteps when walking on a collider with the Physic Material assigned to 'Metal & Glass Physic Material'"));
+                showMetalFS =
+		EditorGUILayout.BeginFoldoutHeaderGroup(showMetalFS,new
+		GUIContent("Space Cloud Clips","Audio clips available as footsteps when walking on a collider with the Physic Material assigned to 'Space Cloud Physic Material'"));
                 if(showMetalFS){
                     GUILayout.BeginVertical("box");
                     
                     if(t.dynamicFootstep.materialMode == FirstPersonAIO.DynamicFootStep.matMode.physicMaterial){
                         if(! t.dynamicFootstep.metalAndGlassPhysMat.Any()){EditorGUILayout.HelpBox("At least one Physic Material must be assigned first.",MessageType.Warning);}
-                        EditorGUILayout.LabelField("Metal & Glass Physic Materials",new GUIStyle(GUI.skin.label){alignment = TextAnchor.MiddleCenter, fontStyle = FontStyle.Bold});
+                        EditorGUILayout.LabelField("Space Cloud Physic Materials",new GUIStyle(GUI.skin.label){alignment = TextAnchor.MiddleCenter, fontStyle = FontStyle.Bold});
                         for(int i=0; i<metalAndGlassPhysMat.arraySize; i++){ 
                         SerializedProperty LS_ref = metalAndGlassPhysMat.GetArrayElementAtIndex(i);
                         EditorGUILayout.BeginHorizontal("box");
@@ -1028,7 +1030,7 @@ public class BETA_SETTINGS{
 
                     else{
                         if(!t.dynamicFootstep.metalAndGlassMat.Any()){EditorGUILayout.HelpBox("At least one Material must be assigned first.",MessageType.Warning);}
-                        EditorGUILayout.LabelField("Metal & Glass Materials", new GUIStyle(GUI.skin.label){alignment = TextAnchor.MiddleCenter, fontStyle = FontStyle.Bold});
+                        EditorGUILayout.LabelField("Space Cloud Materials", new GUIStyle(GUI.skin.label){alignment = TextAnchor.MiddleCenter, fontStyle = FontStyle.Bold});
                         for(int i=0; i<metalAndGlassMat.arraySize; i++){ 
                         SerializedProperty LS_ref = metalAndGlassMat.GetArrayElementAtIndex(i);
                         EditorGUILayout.BeginHorizontal("box");
@@ -1040,7 +1042,7 @@ public class BETA_SETTINGS{
                         GUI.enabled = t.dynamicFootstep.metalAndGlassMat.Any();
                     }
 
-                    EditorGUILayout.LabelField("Metal & Glass Audio Clips", new GUIStyle(GUI.skin.label){alignment = TextAnchor.MiddleCenter, fontStyle = FontStyle.Bold});
+                    EditorGUILayout.LabelField("Space Cloud Audio Clips", new GUIStyle(GUI.skin.label){alignment = TextAnchor.MiddleCenter, fontStyle = FontStyle.Bold});
                     for(int i=0; i<metalFS.arraySize; i++){ 
                     SerializedProperty LS_ref = metalFS.GetArrayElementAtIndex(i);
                     EditorGUILayout.BeginHorizontal("box");

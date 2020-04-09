@@ -29735,6 +29735,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114051214696948948, guid: 2e62f5703e5f8d2488a5e1bc8433be41,
         type: 3}
+      propertyPath: dynamicFootstep.customClipSet.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 114051214696948948, guid: 2e62f5703e5f8d2488a5e1bc8433be41,
+        type: 3}
+      propertyPath: dynamicFootstep.dirtAndGravelClipSet.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 114051214696948948, guid: 2e62f5703e5f8d2488a5e1bc8433be41,
+        type: 3}
       propertyPath: canJump
       value: 1
       objectReference: {fileID: 0}
@@ -29766,7 +29776,7 @@ PrefabInstance:
     - target: {fileID: 114051214696948948, guid: 2e62f5703e5f8d2488a5e1bc8433be41,
         type: 3}
       propertyPath: fsmode
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114051214696948948, guid: 2e62f5703e5f8d2488a5e1bc8433be41,
         type: 3}
@@ -29788,6 +29798,62 @@ PrefabInstance:
       propertyPath: canHoldJump
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114051214696948948, guid: 2e62f5703e5f8d2488a5e1bc8433be41,
+        type: 3}
+      propertyPath: dynamicFootstep.materialMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114051214696948948, guid: 2e62f5703e5f8d2488a5e1bc8433be41,
+        type: 3}
+      propertyPath: dynamicFootstep.dirtAndGravelClipSet.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 187471ee7d167413f89eb2c91c63d3fe, type: 3}
+    - target: {fileID: 114051214696948948, guid: 2e62f5703e5f8d2488a5e1bc8433be41,
+        type: 3}
+      propertyPath: dynamicFootstep.dirtAndGravelClipSet.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 54d19c2523a7b4c288bea36bebf8f23f, type: 3}
+    - target: {fileID: 114051214696948948, guid: 2e62f5703e5f8d2488a5e1bc8433be41,
+        type: 3}
+      propertyPath: dynamicFootstep.dirtAndGravelClipSet.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: e225883398c914c8aa4256a99ee48684, type: 3}
+    - target: {fileID: 114051214696948948, guid: 2e62f5703e5f8d2488a5e1bc8433be41,
+        type: 3}
+      propertyPath: dynamicFootstep.dirtAndGravelClipSet.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 270fca100f4474fc99c45140cdec96f4, type: 3}
+    - target: {fileID: 114051214696948948, guid: 2e62f5703e5f8d2488a5e1bc8433be41,
+        type: 3}
+      propertyPath: dynamicFootstep.dirtAndGravelClipSet.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: c710a2b9e1a2d4993b115b74ac23cc8c, type: 3}
+    - target: {fileID: 114051214696948948, guid: 2e62f5703e5f8d2488a5e1bc8433be41,
+        type: 3}
+      propertyPath: dynamicFootstep.dirtAndGravelClipSet.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: 05a8bdcdac5f44518a269bdf1f36f292, type: 3}
+    - target: {fileID: 114051214696948948, guid: 2e62f5703e5f8d2488a5e1bc8433be41,
+        type: 3}
+      propertyPath: dynamicFootstep.dirtAndGravelClipSet.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: 41e9ae6f6cfe0403ab4c6f65ab2b8af2, type: 3}
+    - target: {fileID: 114051214696948948, guid: 2e62f5703e5f8d2488a5e1bc8433be41,
+        type: 3}
+      propertyPath: dynamicFootstep.dirtAndGravelClipSet.Array.data[7]
+      value: 
+      objectReference: {fileID: 8300000, guid: c7d2780d0566a4087a544d9e750937e6, type: 3}
+    - target: {fileID: 114051214696948948, guid: 2e62f5703e5f8d2488a5e1bc8433be41,
+        type: 3}
+      propertyPath: dynamicFootstep.dirtAndGravelClipSet.Array.data[8]
+      value: 
+      objectReference: {fileID: 8300000, guid: 02c7f671ce1a1415c8f6a4a4b28d815f, type: 3}
+    - target: {fileID: 114051214696948948, guid: 2e62f5703e5f8d2488a5e1bc8433be41,
+        type: 3}
+      propertyPath: dynamicFootstep.dirtAndGravelPhysMat.Array.data[0]
+      value: 
+      objectReference: {fileID: 13400000, guid: 66974829c5573b14eb6cc2af4dc77325,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
 --- !u!1 &922604835 stripped
@@ -31278,7 +31344,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1138525967}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 66974829c5573b14eb6cc2af4dc77325, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
