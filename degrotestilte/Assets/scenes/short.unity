@@ -50289,6 +50289,10 @@ MonoBehaviour:
   xmove: 0.001
   ymove: 0
   zmove: 0
+  xAngle: 0
+  yAngle: 0
+  zAngle: 0
+  obj: {fileID: 0}
 --- !u!1 &2132006088 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8588115379147016874, guid: 3ffb42c9597b9b44da7cdfb5743e88c2,
