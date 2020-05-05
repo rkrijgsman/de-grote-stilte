@@ -4,8 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Door
   - collider1
-  - collider2
   layers:
   - Default
   - TransparentFX
