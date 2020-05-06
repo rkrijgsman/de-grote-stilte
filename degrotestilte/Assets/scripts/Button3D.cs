@@ -24,7 +24,8 @@ namespace ExtendedButtons
         public void Init()
         {
             if (isInit) return;
-            isInit = true;
+                isInit = true;
+
 
             if (onClick == null)
                 onClick = new UnityEvent();
