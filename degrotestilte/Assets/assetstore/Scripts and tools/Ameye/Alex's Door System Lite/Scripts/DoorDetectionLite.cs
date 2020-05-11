@@ -19,7 +19,7 @@ public class DoorDetectionLite : MonoBehaviour
     // Raycast Settings
     public float Reach = 4.0F;
     [HideInInspector] public bool InReach;
-    public string Character = "e";
+    //public string Character = "e";
 
     public Color DebugRayColor;
 
@@ -67,7 +67,7 @@ public class DoorDetectionLite : MonoBehaviour
                 // Get access to the 'Door' script attached to the object that was hit
                 DoorRotationLite dooropening = Door.GetComponent<DoorRotationLite>();
 
-                if (Input.GetKey(Character))
+                if (Input.GetKey(KeyCode.Mouse0))
                 {
                     // Open/close the door by running the 'Open' function found in the 'Door' script
                     if (dooropening.RotationPending == false) StartCoroutine(hit.collider.GetComponent<DoorRotationLite>().Move());
