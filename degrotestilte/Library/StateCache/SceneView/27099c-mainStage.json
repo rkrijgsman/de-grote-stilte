@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":45.12339401245117,"y":9.032742500305176,"z":-1.9278221130371094},"rotation":{"x":-0.13660097122192384,"y":-0.6248282790184021,"z":0.11209245771169663,"w":-0.7607122659683228},"size":33.81727600097656,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":41.822906494140628,"y":-26.00441551208496,"z":-15.70114517211914},"rotation":{"x":-0.23723386228084565,"y":-0.6086949110031128,"z":0.19802720844745637,"w":-0.7309818267822266},"size":98.42903137207031,"orthographic":false}
+>>>>>>> backup-robin-13/05
