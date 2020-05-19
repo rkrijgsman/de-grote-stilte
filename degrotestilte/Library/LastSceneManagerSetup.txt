@@ -1,13 +1,13 @@
 sceneSetups:
 - path: Assets/scenes/short.unity
-  isLoaded: 0
-  isActive: 0
+  isLoaded: 1
+  isActive: 1
   isSubScene: 0
 - path: Assets/scenes/menu.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
 - path: Assets/scenes/test.unity
-  isLoaded: 1
-  isActive: 1
+  isLoaded: 0
+  isActive: 0
   isSubScene: 0

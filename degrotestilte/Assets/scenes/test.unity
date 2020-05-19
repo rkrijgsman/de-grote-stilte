@@ -154,7 +154,7 @@ MonoBehaviour:
   audioSource: {fileID: 249022167}
   duration: 15
   targetVolume: 1
-  waitsbeforefade: 5
+  waitsbeforefade: 10
 --- !u!82 &249022167
 AudioSource:
   m_ObjectHideFlags: 0
