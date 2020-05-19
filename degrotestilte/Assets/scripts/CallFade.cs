@@ -7,10 +7,11 @@ public class CallFade : MonoBehaviour
     public AudioSource audioSource;
     public float duration;
     public float targetVolume;
-
+   public float waitsbeforefade;
     void Start()
     {
-        StartCoroutine(FadeAudioSource.StartFade(audioSource, duration, targetVolume));
+        StartCoroutine(waiter());
+
     }
 
     // Update is called once per frame
@@ -18,4 +19,9 @@ public class CallFade : MonoBehaviour
     {
         
     }
+     IEnumerator waiter()
+{
+    yield return new WaitForSeconds(waitsbeforefade);
+    StartCoroutine(FadeAudioSource.StartFade(audioSource, duration, targetVolume));
+}
 }
