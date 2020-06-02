@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Door
   - collider1
+  - TagLight
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - 
   - 
   - under
-  - 
+  - vlight
   - 
   - 
   - 
