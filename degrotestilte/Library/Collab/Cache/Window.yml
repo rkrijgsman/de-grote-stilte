@@ -14,53 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Assets/Bieb dingen/Materials/marble.mat
-    - Assets/Assets/Bieb dingen/middle stairs.meta
-    - Assets/Assets/Bieb dingen/middle stairs/Materials.meta
-    - Assets/Assets/Bieb dingen/middle stairs/Materials/albedo_column.mat
-    - Assets/Assets/Bieb dingen/middle stairs/Materials/albedo_column.mat.meta
-    - Assets/Assets/Bieb dingen/middle stairs/Materials/albedo_slab.mat
-    - Assets/Assets/Bieb dingen/middle stairs/Materials/albedo_slab.mat.meta
-    - Assets/Assets/Bieb dingen/middle stairs/Materials/albedo_stairs_01.mat
-    - Assets/Assets/Bieb dingen/middle stairs/Materials/albedo_stairs_01.mat.meta
-    - Assets/Assets/Bieb dingen/middle stairs/source.meta
-    - Assets/Assets/Bieb dingen/middle stairs/source/plotek z kolumnami.obj
-    - Assets/Assets/Bieb dingen/middle stairs/source/plotek z kolumnami.obj.meta
-    - Assets/Assets/Bieb dingen/middle stairs/textures.meta
-    - Assets/Assets/Bieb dingen/middle stairs/textures/albedo_column.png
-    - Assets/Assets/Bieb dingen/middle stairs/textures/albedo_column.png.meta
-    - Assets/Assets/Bieb dingen/middle stairs/textures/albedo_slab.png
-    - Assets/Assets/Bieb dingen/middle stairs/textures/albedo_slab.png.meta
-    - Assets/Assets/Bieb dingen/middle stairs/textures/albedo_stairs_01.png
-    - Assets/Assets/Bieb dingen/middle stairs/textures/albedo_stairs_01.png.meta
-    - Assets/Assets/Bieb dingen/middle stairs/textures/albedo_tralka.png
-    - Assets/Assets/Bieb dingen/middle stairs/textures/albedo_tralka.png.meta
-    - Assets/Assets/Bieb dingen/middle stairs/textures/metallic_stairs01.png
-    - Assets/Assets/Bieb dingen/middle stairs/textures/metallic_stairs01.png.meta
-    - Assets/Assets/Bieb dingen/middle stairs/textures/metallic_tralka.png
-    - Assets/Assets/Bieb dingen/middle stairs/textures/metallic_tralka.png.meta
-    - Assets/Assets/Bieb dingen/middle stairs/textures/normal_02_stairs_01.png
-    - Assets/Assets/Bieb dingen/middle stairs/textures/normal_02_stairs_01.png.meta
-    - Assets/Assets/Bieb dingen/middle stairs/textures/normal_column.png
-    - Assets/Assets/Bieb dingen/middle stairs/textures/normal_column.png.meta
-    - Assets/Assets/Bieb dingen/middle stairs/textures/normal_slab.png
-    - Assets/Assets/Bieb dingen/middle stairs/textures/normal_slab.png.meta
-    - Assets/Assets/Bieb dingen/middle stairs/textures/normal_tralka2.png
-    - Assets/Assets/Bieb dingen/middle stairs/textures/normal_tralka2.png.meta
-    - Assets/Assets/Bieb dingen/middle stairs/textures/normal_tralka3.png
-    - Assets/Assets/Bieb dingen/middle stairs/textures/normal_tralka3.png.meta
-    - Assets/Assets/Bieb dingen/middle stairs/textures/roughness_column.png
-    - Assets/Assets/Bieb dingen/middle stairs/textures/roughness_column.png.meta
-    - Assets/Assets/Bieb dingen/middle stairs/textures/roughness_slab.png
-    - Assets/Assets/Bieb dingen/middle stairs/textures/roughness_slab.png.meta
-    - Assets/Assets/Bieb dingen/middle stairs/textures/roughness_stairs01.png
-    - Assets/Assets/Bieb dingen/middle stairs/textures/roughness_stairs01.png.meta
-    - Assets/Assets/Bieb dingen/middle stairs/textures/roughness_tralka.png
-    - Assets/Assets/Bieb dingen/middle stairs/textures/roughness_tralka.png.meta
+    - Assets/Assets/Bieb dingen/Floor 1.prefab
+    - Assets/Assets/Bieb dingen/Floor 1.prefab.meta
+    - Assets/Assets/Bieb dingen/spiral stair.prefab
+    - Assets/Assets/Bieb dingen/spiral stair.prefab.meta
     - Assets/scenes/Bieb.unity
+    - Assets/scripts/TileManager.cs
+    - Assets/scripts/TileManager.cs.meta
     - 
-    m_Values: 010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
-  RevisionSummary: 2.1.7 Daken af, rooms zijn nu modular
+    m_Values: 0101010101010101
+  RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0
