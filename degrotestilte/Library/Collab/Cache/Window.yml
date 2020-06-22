@@ -14,11 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/Assets/Bieb dingen/Smoky_Atmosphere.meta
+    - Assets/Assets/Bieb dingen/Smoky_Atmosphere/FBX.meta
+    - Assets/Assets/Bieb dingen/Smoky_Atmosphere/FBX/Materials.meta
+    - Assets/Assets/Bieb dingen/Smoky_Atmosphere/Prefabs.meta
+    - Assets/Assets/Bieb dingen/Smoky_Atmosphere/Shaders.meta
+    - Assets/Assets/Bieb dingen/Smoky_Atmosphere/Textures.meta
+    - Assets/Assets/Bieb dingen/standbeelden.meta
+    - Assets/Assets/Bieb dingen/standbeelden/34057 sculpture man.obj
+    - Assets/Assets/Bieb dingen/standbeelden/34057 sculpture man.obj.meta
+    - Assets/Assets/Bieb dingen/standbeelden/Aphrodite Standing.obj
+    - Assets/Assets/Bieb dingen/standbeelden/Aphrodite Standing.obj.meta
+    - Assets/Assets/Bieb dingen/standbeelden/venuskissingcupid.obj
+    - Assets/Assets/Bieb dingen/standbeelden/venuskissingcupid.obj.meta
     - Assets/scenes/Bieb.unity
-    - Assets/scripts/playerteleport.cs
-    - Assets/scripts/playerteleport.cs.meta
+    - Assets/scenes/Scene 2.unity
+    - Assets/scripts/stairschangebieb.cs
+    - Assets/scripts/stairschangebieb.cs.meta
     - 
-    m_Values: 00000000
+    m_Values: 000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
