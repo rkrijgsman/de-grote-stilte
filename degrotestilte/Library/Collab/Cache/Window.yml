@@ -14,25 +14,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Assets/Bieb dingen/Smoky_Atmosphere.meta
-    - Assets/Assets/Bieb dingen/Smoky_Atmosphere/FBX.meta
-    - Assets/Assets/Bieb dingen/Smoky_Atmosphere/FBX/Materials.meta
-    - Assets/Assets/Bieb dingen/Smoky_Atmosphere/Prefabs.meta
-    - Assets/Assets/Bieb dingen/Smoky_Atmosphere/Shaders.meta
-    - Assets/Assets/Bieb dingen/Smoky_Atmosphere/Textures.meta
-    - Assets/Assets/Bieb dingen/standbeelden.meta
     - Assets/Assets/Bieb dingen/standbeelden/34057 sculpture man.obj
     - Assets/Assets/Bieb dingen/standbeelden/34057 sculpture man.obj.meta
     - Assets/Assets/Bieb dingen/standbeelden/Aphrodite Standing.obj
     - Assets/Assets/Bieb dingen/standbeelden/Aphrodite Standing.obj.meta
+    - Assets/Assets/Bieb dingen/standbeelden/SM_Aphrodite.fbx
+    - Assets/Assets/Bieb dingen/standbeelden/SM_Aphrodite.fbx.meta
+    - Assets/Assets/Bieb dingen/standbeelden/SM_Boxer_Resting.fbx
+    - Assets/Assets/Bieb dingen/standbeelden/SM_Boxer_Resting.fbx.meta
+    - Assets/Assets/Bieb dingen/standbeelden/SM_Venus_Kissing.fbx
+    - Assets/Assets/Bieb dingen/standbeelden/SM_Venus_Kissing.fbx.meta
     - Assets/Assets/Bieb dingen/standbeelden/venuskissingcupid.obj
     - Assets/Assets/Bieb dingen/standbeelden/venuskissingcupid.obj.meta
-    - Assets/scenes/Bieb.unity
-    - Assets/scenes/Scene 2.unity
-    - Assets/scripts/stairschangebieb.cs
-    - Assets/scripts/stairschangebieb.cs.meta
+    - Assets/Assets/Materials + Effects/StarfieldMaterials/Textures/Plain Starfields/starfield.mat
+    - Assets/Assets/Materials + Effects/StarfieldMaterials/Textures/Plain Starfields/starfield.mat.meta
+    - Assets/Assets/Scripts and tools/Simple Scene Fade Load System/ReadMeFirst.txt
+    - Assets/Assets/Scripts and tools/Simple Scene Fade Load System/ReadMeFirst.txt.meta
+    - Assets/Assets/Scripts and tools/Simple Scene Fade Load System/Scripts/Fader.cs
+    - Assets/Assets/Scripts and tools/Simple Scene Fade Load System/Scripts/Fader.cs.meta
+    - Assets/Assets/Scripts and tools/Simple Scene Fade Load System/Scripts/Initiate.cs
+    - Assets/Assets/Scripts and tools/Simple Scene Fade Load System/Scripts/Initiate.cs.meta
+    - Assets/scenes/bieb1.unity
+    - Assets/scenes/bieb1.unity.meta
+    - Assets/scenes/bieb2.unity
+    - Assets/scenes/bieb2.unity.meta
+    - Assets/scenes/bieb3.unity
+    - Assets/scenes/bieb3.unity.meta
+    - Assets/scenes/hotel1.unity
+    - Assets/scenes/hotel1.unity.meta
+    - Assets/scenes/hotel2.unity
+    - Assets/scenes/hotel2.unity.meta
+    - Assets/scenes/hotel3.unity
+    - Assets/scenes/hotel3.unity.meta
+    - Assets/scenes/shortSettings.lighting
+    - Assets/scenes/shortSettings.lighting.meta
+    - Assets/scenes/shortintro.unity
+    - Assets/scenes/shortintro.unity.meta
+    - Assets/scenes/test.unity
+    - Assets/scenes/test.unity.meta
+    - Assets/scripts/scriptnaarscene2.cs
+    - Assets/scripts/scriptnaarscene2.cs.meta
+    - ProjectSettings/EditorBuildSettings.asset
     - 
-    m_Values: 000000000000000000000000000000000000
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

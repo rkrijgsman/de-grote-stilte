@@ -1,17 +1,21 @@
 sceneSetups:
-- path: Assets/scenes/short.unity
+- path: Assets/scenes/shortintro.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
-- path: Assets/scenes/Scene 2.unity
+- path: Assets/scenes/hotel1.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
-- path: Assets/scenes/Bieb.unity
+- path: Assets/scenes/hotel2.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/scenes/hotel3.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
-- path: Assets/Assets/Materials + Effects/Procedural Aurora/Demo/DemoScene.unity
+- path: Assets/scenes/bieb1.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
